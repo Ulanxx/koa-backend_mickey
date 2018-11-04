@@ -6,10 +6,10 @@
   "database": {
     "host": "127.0.0.1",
     "port": 27017,
-    "user": "mikoadmin",
-    "password": "mikoadmin",
+    "user": "admin",
+    "password": "admin",
     "authMechanism": "DEFAULT",
-    "db": "mikowallet",
+    "db": "miko",
     "authSource": "admin"
   },
   "wx": {
