@@ -1,0 +1,22 @@
+{
+  "from:": {
+    "type": "String",
+    "required": true
+  },
+  "good": {
+    "type": "Object",
+    "required": true
+  },
+  "tokenId": {
+    "type": "String",
+    "required": true,
+    "unique": true
+  },
+  "to": {
+    "type": "String",
+    "required": true
+  },
+  "createdAt": {
+    "type": "String"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mobile": {
+    "type": "String",
+    "unique": true,
+    "required": true
+  },
+  "code:": {
+    "type": "String",
+    "required": true
+  },
+  "createdAt": {
+    "type": "String",
+    "required": true
+  }
+}

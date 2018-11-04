@@ -1,0 +1,32 @@
+{
+  "server": {
+    "ip": "0.0.0.0",
+    "port": 6000
+  },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "user": "mikoadmin",
+    "password": "mikoadmin",
+    "authMechanism": "DEFAULT",
+    "db": "mikowallet",
+    "authSource": "admin"
+  },
+  "wx": {
+    "jscode2session_url": "https://api.weixin.qq.com/sns/jscode2session",
+    "appid": "wxbe55565d8ca794a3",
+    "secret": "741f30f1885fe682f6bf6ee9d7a618b8",
+    "grant_type": "authorization_code"
+  },
+  "SMS": {
+    "send_sms_uri": "https://api.netease.im/sms/sendcode.action",
+    "check_sms_uri": "https://api.netease.im/sms/verifycode.action",
+    "appkey": "754ad8beb2f2ab50260946bb9970c4e1",
+    "secret": "63a6edb302d0",
+    "codeLen": 6,
+    "expires_time": 60
+  },
+  "business": {
+    "base": "http://192.168.20.248:3000"
+  }
+}

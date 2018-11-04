@@ -1,0 +1,77 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/wallet/signin",
+      "authentication": false,
+      "params": {
+        "code": "String"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallet/account",
+      "authentication": false,
+      "params": {
+        "token": "String",
+        "encryptedData": "String",
+        "iv": "String"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallet/sms",
+      "authentication": false,
+      "params": {
+        "token": "String",
+        "mobile": "String"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallet/sms/verification",
+      "authentication": false,
+      "params": {
+        "token": "String",
+        "mobile": "String",
+        "code": "String"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallet/tokens",
+      "authentication": false,
+      "params": {
+        "token": "String"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallet/verification",
+      "authentication": false,
+      "params": {
+        "token": "String",
+        "content": "String"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallet/transaction",
+      "authentication": false,
+      "params": {
+        "token": "String",
+        "to": "String",
+        "good": "Object",
+        "tokenId": "String"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallet/transactions",
+      "authentication": false,
+      "params": {
+        "token": "String"
+      }
+    }
+  ]
+}
