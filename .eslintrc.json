@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "eslint-config-airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": [
+      "error",
+      "never"
+    ],
+    "import/prefer-default-export": [
+      "off"
+    ],
+    "class-methods-use-this": [
+      "off"
+    ],
+    "comma-dangle": [
+      "off"
+    ],
+    "no-underscore-dangle": [
+      "off"
+    ],
+    "prefer-promise-reject-errors": [
+      "off"
+    ]
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  }
+}
