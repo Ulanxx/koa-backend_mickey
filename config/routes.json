@@ -1,6 +1,11 @@
 {
   "routes": [
     {
+      "method": "GET",
+      "path": "/wallet/test",
+      "authentication": false
+    },
+    {
       "method": "POST",
       "path": "/wallet/signin",
       "authentication": false,
